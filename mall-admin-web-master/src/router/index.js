@@ -5,7 +5,7 @@ Vue.use(Router)
 
 /* Layout */
 import Layout from '../views/layout/Layout'
-// import Layout from '../views/layout/Layout'
+// import Operators from '../views/am/operators'
 
 /**
  * hidden: true                   if `hidden:true` will not show in the sidebar(default is false)

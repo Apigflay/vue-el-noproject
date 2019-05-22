@@ -103,6 +103,7 @@
         }
       },
       handleLogin() {
+        console.log(this.$refs.loginForm.validate)
         this.$refs.loginForm.validate(valid => {
           if (valid) {
             let isSupport = getSupport();
